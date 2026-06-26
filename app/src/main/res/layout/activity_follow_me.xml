@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8FAFC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- TITLE -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Follow Me"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#111111"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- CURRENT LOCATION -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#E3F2FD"
+            android:gravity="center_vertical"
+            android:padding="12dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@android:drawable/ic_menu_mylocation"/>
+
+            <EditText
+                android:id="@+id/etCurrent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Current location"
+                android:background="@android:color/transparent"
+                android:layout_marginStart="10dp"/>
+        </LinearLayout>
+
+        <!-- DESTINATION -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#E8F5E9"
+            android:gravity="center_vertical"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@android:drawable/ic_menu_directions"/>
+
+            <EditText
+                android:id="@+id/etDestination"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter destination"
+                android:background="@android:color/transparent"
+                android:layout_marginStart="10dp"/>
+        </LinearLayout>
+
+        <!-- MODES -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- ROW 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- WALK -->
+                <LinearLayout
+                    android:id="@+id/btnWalk"
+                    android:layout_width="0dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:background="#FFF3E0"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_margin="5dp">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@android:drawable/ic_menu_compass"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Walk"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <!-- BIKE -->
+                <LinearLayout
+                    android:id="@+id/btnBike"
+                    android:layout_width="0dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:background="#E1F5FE"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_margin="5dp">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@android:drawable/ic_menu_rotate"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bike"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- ROW 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- CAR -->
+                <LinearLayout
+                    android:id="@+id/btnCar"
+                    android:layout_width="0dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:background="#FCE4EC"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_margin="5dp">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@android:drawable/ic_menu_directions"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Car"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <!-- BUS -->
+                <LinearLayout
+                    android:id="@+id/btnBus"
+                    android:layout_width="0dp"
+                    android:layout_height="90dp"
+                    android:layout_weight="1"
+                    android:background="#EDE7F6"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_margin="5dp">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@android:drawable/ic_menu_myplaces"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bus"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- SPACE -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="270dp"/>
+
+        <!-- START BUTTON -->
+        <LinearLayout
+            android:id="@+id/btnStart"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/neumorphic_btn"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start Navigation"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

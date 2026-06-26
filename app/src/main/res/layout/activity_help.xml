@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9DDF5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Help and Support"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- FAQ Section -->
+
+        <TextView
+            android:text="Frequently Asked Questions"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="1. How does SOS work?"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="When you press the SOS button, your live location will be sent to emergency contacts." />
+
+        <TextView
+            android:text="2. What is Fake Call?"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Fake Call simulates an incoming call to help you escape uncomfortable situations."
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Contact Support -->
+
+        <TextView
+            android:text="Contact Support"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnEmailSupport"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Email Support"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#6A1B9A"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/btnCallSupport"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Call Support"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#1976D2"
+            android:textColor="#FFFFFF"/>
+
+        <!-- Emergency Info -->
+
+        <TextView
+            android:text="Emergency Numbers"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Police: 100"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Ambulance: 108"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Women Helpline: 181"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- App Version -->
+
+        <TextView
+            android:id="@+id/tvVersion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="App Version 1.0"
+            android:layout_marginTop="30dp"
+            android:textColor="#777777"/>
+
+    </LinearLayout>
+
+</ScrollView>

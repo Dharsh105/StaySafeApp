@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3EDF7">
+
+    <!-- MAP -->
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- BOTTOM PANEL -->
+    <LinearLayout
+        android:id="@+id/bottomPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="#E3EDF7">
+
+        <TextView
+            android:id="@+id/tvSpeed"
+            android:text="Speed : 0 km/h"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#555"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvDistance"
+            android:text="Distance : 0 km"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#555"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <!-- BUTTONS -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottomPanel"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <!-- START TRACKING -->
+        <LinearLayout
+            android:id="@+id/btnTrack"
+            android:layout_width="140dp"
+            android:layout_height="55dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/neumorphic_btn"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:id="@+id/txtTrack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start Tracking"
+                android:textColor="#555"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <!-- FOLLOW ME -->
+        <LinearLayout
+            android:id="@+id/btnFollowMe"
+            android:layout_width="140dp"
+            android:layout_height="55dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/neumorphic_btn"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Follow Me"
+                android:textColor="#555"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

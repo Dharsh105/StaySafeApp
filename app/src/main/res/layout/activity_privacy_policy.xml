@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9DDF5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Privacy Policy"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#6A1B9A"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Intro -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your privacy is important to us. This Safety App ensures your data is safe and secure."
+            android:textSize="15sp"
+            android:textColor="#333333"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Section 1 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Information We Collect"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We collect your name, email, phone number, and emergency contacts."
+            android:textSize="14sp"
+            android:textColor="#444444"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Section 2 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Location Data"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location is used only during SOS alerts to share your live location."
+            android:textSize="14sp"
+            android:textColor="#444444"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Section 3 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Data Usage"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your data is used only for safety features and not shared with others."
+            android:textSize="14sp"
+            android:textColor="#444444"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Section 4 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Security"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We use security measures to protect your data."
+            android:textSize="14sp"
+            android:textColor="#444444"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Section 5 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Contact"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact us through the app for any queries."
+            android:textSize="14sp"
+            android:textColor="#444444"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+</ScrollView>

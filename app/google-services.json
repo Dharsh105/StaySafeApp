@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1051319778740",
+    "project_id": "safetyapp-54d94",
+    "storage_bucket": "safetyapp-54d94.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051319778740:android:f1afb315603d333635c6e1",
+        "android_client_info": {
+          "package_name": "com.example.safetyapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYxoP8LZmxoIesEi1umMO99Tek-joRtB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

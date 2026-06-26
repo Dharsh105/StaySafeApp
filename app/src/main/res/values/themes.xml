@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App Theme -->
+    <style name="Theme.SafetyApp" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#4A6CF7</item>
+        <item name="colorPrimaryVariant">#3F5BE0</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+    </style>
+
+
+</resources>

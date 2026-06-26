@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9DDF5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FAQ"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#6A1B9A"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- FAQ 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_faq_item"
+            android:padding="12dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/q1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How does SOS work?"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/a1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SOS sends your live location and alert message to saved contacts."
+                android:visibility="gone"
+                android:textSize="14sp"
+                android:textColor="#333333"
+                android:layout_marginTop="6dp"/>
+        </LinearLayout>
+
+        <!-- FAQ 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_faq_item"
+            android:padding="12dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/q2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How to add emergency contacts?"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/a2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Go to Settings > SOS Settings and select contacts."
+                android:visibility="gone"
+                android:textSize="14sp"
+                android:textColor="#333333"
+                android:layout_marginTop="6dp"/>
+        </LinearLayout>
+
+        <!-- FAQ 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_faq_item"
+            android:padding="12dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/q3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Does app work without internet?"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/a3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SMS works without internet but location sharing needs GPS."
+                android:visibility="gone"
+                android:textSize="14sp"
+                android:textColor="#333333"
+                android:layout_marginTop="6dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

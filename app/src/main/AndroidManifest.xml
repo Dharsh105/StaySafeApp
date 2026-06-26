@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.safetyapp">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.DIAL" />
+        </intent>
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="SafetyApp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SafetyApp"
+        android:usesCleartextTraffic="true">
+
+        <!-- 🔴 AdMob App ID (VERY IMPORTANT) -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2193202469022499~6136497697"/>
+
+        <!-- Google Maps API -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="YOUR_API_KEY_HERE" />
+
+        <!-- Splash (Launcher) -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Auth -->
+        <activity android:name=".LoginActivity" android:exported="true" />
+        <activity android:name=".RegisterActivity" android:exported="true" />
+
+        <!-- Main -->
+        <activity android:name=".MainActivity" android:exported="true" />
+
+        <!-- Safety Features -->
+        <activity android:name=".SOSActivity" android:exported="true" />
+        <activity android:name=".SMSAlertActivity" android:exported="true" />
+        <activity android:name=".GPSTrackingActivity" android:exported="true" />
+        <activity android:name=".FollowMeActivity" android:exported="true" />
+        <activity android:name=".FakeCallActivity" android:exported="true" />
+        <activity android:name=".SafetyTipsActivity" android:exported="true" />
+
+        <!-- Police -->
+<!--        <activity android:name=".PoliceActivity" android:exported="false" />-->
+
+        <!-- History -->
+        <activity android:name=".HistoryActivity" android:exported="true" />
+
+        <!-- Settings -->
+        <activity android:name=".SettingsActivity" android:exported="true" />
+        <activity android:name=".SosSettingsActivity" android:exported="false" />
+
+        <!-- Other Pages -->
+        <activity android:name=".ProfileActivity" android:exported="false" />
+        <activity android:name=".HelpActivity" android:exported="false" />
+        <activity android:name=".NotificationActivity" android:exported="false" />
+<!--        <activity android:name=".LanguageActivity" android:exported="false" />-->
+        <activity android:name=".FAQActivity" android:exported="false" />
+        <activity android:name=".PrivacyPolicyActivity" android:exported="false" />
+        <activity android:name=".AskQuestionActivity" android:exported="false" />
+
+    </application>
+
+</manifest>

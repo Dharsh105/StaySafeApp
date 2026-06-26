@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9DDF5">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:text="SOS Contacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#6A1B9A"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Contact 1 -->
+    <Button
+        android:id="@+id/contact1Btn"
+        android:text="Select Contact 1"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="36dp"
+        android:layout_alignParentEnd="true"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:background="@drawable/bg_button_purple" />
+
+    <!-- Contact 2 -->
+    <Button
+        android:id="@+id/contact2Btn"
+        android:text="Select Contact 2"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="36dp"
+        android:layout_alignParentEnd="true"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:background="@drawable/bg_button_purple" />
+
+    <!-- Contact 3 -->
+    <Button
+        android:id="@+id/contact3Btn"
+        android:text="Select Contact 3"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="36dp"
+        android:layout_alignParentEnd="true"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:background="@drawable/bg_button_purple" />
+    <!-- SPACE -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+    <Button
+        android:id="@+id/doneBtn"
+        android:text="Done"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#FFFFFF"
+        android:background="#7E57C2"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
+</ScrollView>
