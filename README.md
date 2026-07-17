@@ -19,8 +19,29 @@ Stay Safe is an Android application developed to help people during emergency si
 - Firebase Realtime Database
 - Google Maps API
 
-## 📱 Screenshots
-(Add screenshots here)
+# Stay Safe App
+
+## Login Screen
+<img width="1080" height="2280" alt="login-screen" src="https://github.com/user-attachments/assets/0bef5771-abb7-49a4-8e9d-aa34f3dd305b" />
+
+## Registration Screen
+<img width="1080" height="2280" alt="registration-screen" src="https://github.com/user-attachments/assets/8d4549aa-d512-4db8-879d-5519925d5868" />
+
+## Home Screen
+<img width="1080" height="2280" alt="home-screen" src="https://github.com/user-attachments/assets/a06a4c93-a616-4d0c-9e96-a776eb97f29c" />
+
+## Profile Screen 
+<img width="1080" height="2280" alt="profile-screen" src="https://github.com/user-attachments/assets/f8946d3a-b96d-4bc9-92d8-4eff5cf9b77e" />
+
+## SOS Emergency
+<img width="1080" height="2280" alt="sos-screen" src="https://github.com/user-attachments/assets/de3f177b-637a-4062-8e76-c8ab5c4265e2" />
+
+## GPS Screen
+<img width="1080" height="2280" alt="gps-screen" src="https://github.com/user-attachments/assets/10496ec2-ff35-4f2c-ae68-02e80aa4ec4b" />
+
+## Setting Screen
+<img width="1080" height="2280" alt="setting-screen" src="https://github.com/user-attachments/assets/950183e0-c06f-4836-93eb-153eda003d19" />
+
 
 ## 👩‍💻 Developed By
 Dharshini U
