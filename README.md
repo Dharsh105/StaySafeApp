@@ -57,5 +57,5 @@ Stay Safe is an Android application developed to help people during emergency si
 </p>
 
 ## 👩‍💻 Developed By
-Dharshini U
-B.Sc Computer Science
+Dharshini U,
+B.Sc(Computer Science).,
