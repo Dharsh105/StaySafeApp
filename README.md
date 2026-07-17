@@ -1,19 +1,27 @@
-# Stay Safe App
+# Stay Safe Security App
 
-A personal safety and emergency alert Android application.
+## 📌 About
+Stay Safe is an Android application developed to help people during emergency situations. The application allows users to quickly send SOS alerts, share their live location, and contact emergency numbers.
 
-## Features
-- SOS Alert
+## 🚀 Features
+- Emergency SOS Button
+- Live GPS Location
 - Emergency Contacts
-- GPS Tracking
-- Fake Call Feature
-- Safety Tips
-- Emergency Notifications
+- User Login & Registration
+- Firebase Authentication
+- Real-time Alerts
+- Modern Android UI
 
-## Technologies Used
-- Android Studio
+## 🛠 Technologies Used
 - Java
-- Firebase
+- Android Studio
+- Firebase Authentication
+- Firebase Realtime Database
+- Google Maps API
 
-## Developed By
-Dharshini
+## 📱 Screenshots
+(Add screenshots here)
+
+## 👩‍💻 Developed By
+Dharshini U
+B.Sc Computer Science
